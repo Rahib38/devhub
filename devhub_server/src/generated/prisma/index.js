@@ -131,7 +131,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\level2 projects\\devhub\\src\\generated\\prisma",
+      "value": "C:\\level2 projects\\devhub\\devhub_server\\src\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -145,11 +145,11 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\level2 projects\\devhub\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\level2 projects\\devhub\\devhub_server\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": "../../../.env",
+    "rootEnvPath": null,
     "schemaEnvPath": "../../../.env"
   },
   "relativePath": "../../../prisma",
@@ -159,11 +159,12 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "postgresql://postgres:123456@localhost:5432/devhub?schema=public"
+        "value": null
       }
     }
   },
